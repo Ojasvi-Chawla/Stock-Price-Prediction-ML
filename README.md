@@ -43,13 +43,17 @@ Key Features
 Users can upload their own stock market dataset in CSV format.
 
 The dataset should contain:
+Date
 
--Date
--Open
--High
--Low
--Close
--Volume
+Open
+
+High
+
+Low
+
+Close
+
+Volume
 
 A Ticker column can also be included when working with multiple stocks.
 
@@ -57,15 +61,25 @@ A Ticker column can also be included when working with multiple stocks.
 The project creates several features from historical stock data, including:
 
 -Price Change
+
 -High-Low Range
+
 -Percentage Change
+
 -5-Day Moving Average (MA5)
+
 -10-Day Moving Average (MA10)
+
 -20-Day Moving Average (MA20)
+
 -MACD
+
 -RSI
+
 -Previous Day Closing Price
+
 -Two-Day Lagged Closing Price
+
 -Previous Day Volume
 
 The target variable is the next-day closing price.
@@ -76,9 +90,13 @@ The dashboard performs an outlier check using the Interquartile Range (IQR) meth
 Outliers are analyzed for important financial features such as:
 
 -Open
+
 -High
+
 -Low
+
 -Close
+
 -Volume
 
 🔗 Feature Selection
@@ -89,11 +107,16 @@ The project uses a correlation-based feature selection technique to identify and
 🤖 Machine Learning Models
 The project implements and compares multiple regression algorithms:
 
-Model	Description
+Model	Description:
 Ridge Regression	Regularized linear regression
+
 Support Vector Regression (SVR)	Non-linear regression using support vectors
+
 K-Nearest Neighbors (KNN)	Prediction based on similar observations
+
 Decision Tree	Tree-based regression model
+
 Random Forest	Ensemble of multiple decision trees
+
 Gradient Boosting	Sequential ensemble learning method
 
