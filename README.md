@@ -249,53 +249,67 @@ Click Predict Next-Day Close to generate the prediction.
 
 
 📊 Machine Learning Workflow
+
 Historical Stock Data
         │
         ▼
+        
 Data Preprocessing
         │
         ▼
+        
 Feature Engineering
         │
         ▼
+        
 Technical Indicators
 (MA, MACD, RSI, Lag Features)
         │
         ▼
+        
 Outlier Analysis
         │
         ▼
+        
 Correlation-Based Feature Selection
         │
         ▼
+        
 Time-Series Train/Test Split
         │
         ▼
+        
 Feature Scaling
         │
         ▼
+        
 Model Training
         │
-        ├── Ridge Regression
-        ├── SVR
-        ├── KNN
-        ├── Decision Tree
-        ├── Random Forest
-        └── Gradient Boosting
+       - ├── Ridge Regression
+        -├── SVR
+        -├── KNN
+        -├── Decision Tree
+        -├── Random Forest
+        -└── Gradient Boosting
         │
         ▼
+        
 Hyperparameter Tuning
         │
         ▼
+        
 Model Evaluation
         │
         ▼
+        
 Model Comparison
         │
         ▼
+        
 Best Model Selection
         │
         ▼
+        
 Next-Day Closing Price Prediction
 
 
