@@ -197,7 +197,7 @@ Robust Scaler
 ⚙️ Installation 
 
 1. Clone the Repository
-git clone https://github.com/your-username/Stock-Price-Prediction-ML.git
+git clone https://github.com/Ojasvi-Chawla/Next-Day-Stock-Price-Prediction-Dashboard.git
 
 3. Navigate to the Project Directory
 cd Stock-Price-Prediction-ML
