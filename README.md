@@ -314,11 +314,19 @@ Next-Day Closing Price Prediction
 
 
 📌 Project Highlights
+
 -Implemented multiple machine learning regression algorithms
+
 -Used time-series-based train/test splitting
+
 -Applied RobustScaler for feature scaling
+
 -Implemented feature engineering using financial indicators
+
 -Used GridSearchCV for hyperparameter optimization
--Compared models using multiple evaluation metrics
+
+-Compared models using multiple evaluation 
+
 -Developed an interactive Streamlit dashboard
+
 -Added user-input-based next-day stock price prediction
