@@ -193,3 +193,118 @@ Time Series Split
 
 Robust Scaler
 
+
+⚙️ Installation 
+
+1. Clone the Repository
+git clone https://github.com/your-username/Stock-Price-Prediction-ML.git
+
+3. Navigate to the Project Directory
+cd Stock-Price-Prediction-ML
+
+4. Install Required Libraries
+pip install -r requirements.txt
+
+Or install the dependencies manually:
+pip install streamlit pandas numpy matplotlib scikit-learn
+
+
+▶️ Run the Application
+-Run the Streamlit application using:
+-streamlit run app_pro_dashboard.py
+-The dashboard will open in your browser.
+
+
+🖥️ How to Use
+Step 1: Upload Dataset
+Upload a CSV file containing historical stock market data.
+
+Step 2: Configure Parameters
+Use the sidebar to configure:
+
+Training dataset percentage
+Hyperparameter tuning settings
+Feature correlation threshold
+Step 3: Train Models
+
+Click Run Training to train and evaluate the machine learning models.
+
+Step 4: Compare Models
+Review the model performance based on:
+
+MAE
+RMSE
+R² Score
+
+Step 5: Select a Model
+Choose a model from the available trained models.
+
+Step 6: Predict Next-Day Close
+Enter today's:
+
+Open price
+Close price
+
+Click Predict Next-Day Close to generate the prediction.
+
+
+📊 Machine Learning Workflow
+Historical Stock Data
+        │
+        ▼
+Data Preprocessing
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Technical Indicators
+(MA, MACD, RSI, Lag Features)
+        │
+        ▼
+Outlier Analysis
+        │
+        ▼
+Correlation-Based Feature Selection
+        │
+        ▼
+Time-Series Train/Test Split
+        │
+        ▼
+Feature Scaling
+        │
+        ▼
+Model Training
+        │
+        ├── Ridge Regression
+        ├── SVR
+        ├── KNN
+        ├── Decision Tree
+        ├── Random Forest
+        └── Gradient Boosting
+        │
+        ▼
+Hyperparameter Tuning
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Model Comparison
+        │
+        ▼
+Best Model Selection
+        │
+        ▼
+Next-Day Closing Price Prediction
+
+
+📌 Project Highlights
+-Implemented multiple machine learning regression algorithms
+-Used time-series-based train/test splitting
+-Applied RobustScaler for feature scaling
+-Implemented feature engineering using financial indicators
+-Used GridSearchCV for hyperparameter optimization
+-Compared models using multiple evaluation metrics
+-Developed an interactive Streamlit dashboard
+-Added user-input-based next-day stock price prediction
