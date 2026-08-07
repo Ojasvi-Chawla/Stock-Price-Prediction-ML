@@ -376,6 +376,7 @@ Data visualization
 Streamlit application development
 
 ⚠️ Disclaimer
+
 This project is intended strictly for educational and research purposes.
 
 Stock market prices are influenced by numerous factors, including economic conditions, company performance, market sentiment, global events, and unforeseen circumstances. Machine learning predictions cannot guarantee future market performance.
