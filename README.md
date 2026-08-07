@@ -5,7 +5,6 @@ An interactive Streamlit dashboard for next-day stock closing price prediction u
 
 An interactive Stock Price Prediction Dashboard built with Python, Machine Learning, and Streamlit to predict the next-day closing price of stocks.
 The project compares multiple machine learning regression algorithms and provides an interactive dashboard for data preprocessing, feature engineering, model training, performance evaluation, visualization, and next-day stock price prediction.
-⚠️ Disclaimer: This project is created for educational and experimental purposes only. Stock market predictions are inherently uncertain and should not be considered financial advice.
 
 🚀 Project Overview
 
